@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #2D3142;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+}
+
+nav ul li:hover {
+    color: #92140C
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 4rem 0 4rem 0;
+    width: 80%;
+    margin: auto;
+}
+
+.experience {
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+#experiences {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+
+    width: 80%;
+    margin: 5rem auto 5rem auto;
+}
+ 
+img {
+    border-radius: 20%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+hr {
+    width: 50%;
+    border-radius: 60%;
+}
+
+h2 {
+   text-align: center;
+   margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+      color: #92140C  
+}
